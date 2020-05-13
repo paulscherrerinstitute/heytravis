@@ -1,6 +1,6 @@
 # Hey, Travis! Make a release!!
 
-heytravis is a Python command-line tool for version-tagged commits of Python packages with the goal to trigger Travis-CI building Conda packages.
+*heytravis* is a Python command-line tool for version-tagged commits of Python packages with the goal to trigger Travis-CI building Conda packages.
 
 It assumes that 
 - the package has a `setup.py` in which the `version` string needs to be updated,
@@ -11,7 +11,7 @@ In [PSI](https://github.com/paulscherrerinstitute)'s current github setup this t
 
 ---
 
-heytravis has a few options. Excerpt from `$ ./heytravis.py -h`:
+*heytravis* has a few options. Excerpt from `$ ./heytravis.py -h`:
 ```
   -i FILENAME, --in FILENAME
                         input file name (default: setup.py)
