@@ -11,6 +11,8 @@ In [PSI](https://github.com/paulscherrerinstitute)'s current github setup this t
 
 ---
 
+Most often you probably just want to run a bare `$ ./heytravis.py`, which bumps the *patch* (third/last number) of the version by one (and asks you for confirmation before committing it).
+
 *heytravis* has a few options. Excerpt from `$ ./heytravis.py -h`:
 ```
   -i FILENAME, --in FILENAME
