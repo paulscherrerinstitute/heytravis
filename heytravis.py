@@ -232,6 +232,7 @@ def build_git_commands(fname, version):
         f"git commit -m 'Release v{version}' {fname}",
         f"git tag -a -m 'Release v{version}' {version}",
         f"git push origin {version}",
+        "git push"
     ]
 
 #    commands = ["echo " + cmd for cmd in commands] #TODO only for testing the command execution
