@@ -1,13 +1,13 @@
 # Hey, Travis! Make a release!!
 
-*heytravis* is a Python command-line tool for version-tagged commits of Python packages with the goal to trigger Travis-CI building Conda packages.
+*heytravis* is a Python command-line tool for version-tagged commits of Python packages with the goal to trigger CI pipelines. It's a single stable python script without dependencies that can be easily copied to other repos or used from a central location.
 
 It assumes that 
 - the package has a `setup.py` in which the `version` string needs to be updated,
 - the `version` string follows [semantic versioning](https://semver.org/), and
 - a tagged commit should be made and pushed with the tag being identical to the updated `version` string.
 
-In [PSI](https://github.com/paulscherrerinstitute)'s current github setup this triggers Travis to build a new release and upload it to the [PSI Conda repo](https://anaconda.org/paulscherrerinstitute) (given that the committing acount has everything configured correctly :wink:).
+The name is historical as [PSI](https://github.com/paulscherrerinstitute)'s github setup used to trigger Travis CI to build a new release and upload it to the [PSI conda repo](https://anaconda.org/paulscherrerinstitute). We have since switched to github actions where *heytravis* works just as well.
 
 ---
 
