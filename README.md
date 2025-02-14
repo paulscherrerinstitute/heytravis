@@ -1,6 +1,6 @@
 # Hey, Travis! Make a release!!
 
-*heytravis* is a Python command-line tool for version-tagged commits of Python packages with the goal to trigger CI pipelines. It's a single stable Python (>= 3.6) script without dependencies that can be easily copied to other repos or used from a central location.
+*heytravis* is a Python command-line tool for version-tagged commits of Python packages with the goal to trigger CI pipelines. It's a single stable Python (≥3.6) script without dependencies that can be easily copied to other repos or used from a central location.
 
 It assumes that 
 - the package has a `setup.py` in which the `version` string needs to be updated,
